@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindow</class>
+ <widget class="QMainWindow" name="mainwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>283</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>502</width>
+    <height>283</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>502</width>
+    <height>283</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>nat123客户端</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="nat123Client.qrc">
+    <normaloff>:/image/source/favicon.ico</normaloff>:/image/source/favicon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>236</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gui by xtl</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>24</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#5a841a;&quot;&gt;尊敬&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#884685;&quot;&gt;的&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#a33b46;&quot;&gt;用户&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#387988;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#159d82;&quot;&gt;您&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#33309d;&quot;&gt;已&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#159d82;&quot;&gt;登录&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#38457e;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#3c32c6;&quot;&gt;服务&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#68334d;&quot;&gt;已&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#a33ea1;&quot;&gt;启动&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#7b1b7e;&quot;&gt;！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="go_nat123">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>181</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>前往nat123官网配置映射</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>99</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>关于</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>191</x>
+      <y>170</y>
+      <width>99</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>退出服务</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>502</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>命令</string>
+    </property>
+    <addaction name="action_nat123"/>
+    <addaction name="separator"/>
+    <addaction name="action_3"/>
+    <addaction name="separator"/>
+    <addaction name="action_5"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="action_nat123">
+   <property name="icon">
+    <iconset resource="nat123Client.qrc">
+     <normaloff>:/image/source/favicon.ico</normaloff>:/image/source/favicon.ico</iconset>
+   </property>
+   <property name="text">
+    <string>打开nat123官网</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="nat123Client.qrc">
+     <normaloff>:/image/source/icon.ico</normaloff>:/image/source/icon.ico</iconset>
+   </property>
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="icon">
+    <iconset resource="nat123Client.qrc">
+     <normaloff>:/image/source/install.png</normaloff>:/image/source/install.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出服务</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="nat123Client.qrc"/>
+ </resources>
+ <connections/>
+</ui>
