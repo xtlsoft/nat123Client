@@ -1,0 +1,6 @@
+{
+  "name": "Nat123client",
+  "tagline": "nat123 linux 版的非官方gui客户端，由xtl创建。",
+  "body": "﻿#nat123 for linux (gui)\r\n========================\r\n#说明\r\n-----\r\nnat123是一款nat映射软件，本来只有linux命令行，我为他开发了图形界面，比较丑陋。源码也在里面。\r\n-----\r\n其中，nat123installer下面是安装器，nat123gui下面是gui界面。 /nat123installer/nat123_install_binary 是编译好的，只能在X64下运行。\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
